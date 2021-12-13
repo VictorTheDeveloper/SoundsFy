@@ -2,6 +2,10 @@
     background-color: rgba(29, 28, 28, 0.808);
 }
 
+h1 {
+    color: white;
+}
+
 .menu {
     
     border: 1px solid black;
@@ -32,15 +36,7 @@ button a {
 h2 {
     color: rgba(255, 255, 255, 0.897);
 }
-.maisPopulares, th, td {
-    border: 1px solid black;
-    text-align: center;
-    width: auto;
-    height: auto;
-    background-color: rgba(19, 19, 18, 0.548);
-    color: rgba(255, 255, 255, 0.836);
-    
- }  
+
  td {
      padding-right: 2rem;
      padding-left: 2rem;

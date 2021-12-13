@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <title>SoundFy</title>
         <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-    
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image.png" sizes="32x32" href="../../imagens/favicon-32x32.png" />
+        <link rel="icon" type="image.png" sizes="16x16" href="../../imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest"/>
+
     </head>
     <body>
         <div class="corDeFundo">
@@ -56,11 +60,39 @@
                     </tbody>
                     
                 </table>
+                
+              
+
                 <br><br><br>
             </div>
-            
+            <div class = "music-container" id = "music-container" >
+                <div class = "music-info ">
+                  <h4  id = "title"></h4>
+                  <div class = "progress-container" id = "progress-container" >
+                    <div class = "progress" id = "progress"> </div>
+                  </div >
+                </div >
+           
+                <audio src = "../../musicas/classic.mp3" id = "audio"> </audio>
+           
+                <div class = "img-container">
+                  <img src = "../../imagens/rapo.jpg" alt = "music-cover" id = "cover"/>
+                </div>
+                <div class = "navigation">
+                  <button id = "prev" class = "action-btn">
+                    <i class = "fas fa-backward"> </i>
+                  </botton>
+                  <button id = "play" class = "action-btn action-btn-big">
+                    <i class = "fas fa-play"> </i>
+                  </botton>
+                  <button  id = "next" class = "action-btn">
+                    <i class = "fas fa-forward"> </i>
+                  </botton>
+                </div>
+              </div>
+          </div>  
+          </div>
         </div>
-    </div>
     </body>
     <footer class="rodape">
         <div class="rodapeEstilo">
@@ -74,5 +106,5 @@
         </div>
 
     </footer>
-
+    <script src="../../js/audio.js"></script>
 </html>

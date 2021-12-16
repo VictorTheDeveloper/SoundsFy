@@ -29,6 +29,10 @@ body {
     margin: 0%;
 }
 
+.imagemAvatar {
+    width: 5rem;
+}
+
 button a {
     text-decoration: none;
     color: white;

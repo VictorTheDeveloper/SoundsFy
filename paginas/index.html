@@ -33,26 +33,32 @@
                         <th>Ano</th>
                     </tr> </thead>
                      <tbody>
-                        <tr>
-                            <td><button type="Submit">Beat It for Michael Jackson</button></td>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Michael - Billie Jean" onclick="img01();" id="novo"></input></td>
                             <td>Michael Jackson</td>
-                            <td>5:33</td>
-                            <td>1997</td>  
+                            <td>4:56</td>
+                            <td>1982</td>  
                         </tr>
-                        <tr>
-                            <td><button type="Submit">Beethoven - 2°Sinfonia</button></td>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Beethoven - Moonlight Sonata" onclick="img02();" id="novo1"></input></td>
                             <td>Beethoven</td>
-                            <td>15:30</td>
-                            <td>1986</td>  
+                            <td>15:00</td>
+                            <td>1801</td>  
                         </tr>
-                        <tr>
-                            <td><button type="Submit">Mozart - 40°Sinfonia</button></td>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Mozart - Requiem" onclick="img03();" id="novo2"></input></td>
                             <td>Amadeus Mozart</td>
-                            <td>10:25</td>
-                            <td>1888</td>  
+                            <td>8:54</td>
+                            <td>1791</td>  
                         </tr>
-                        <tr>
-                            <td><button type="Submit">Joseph - 94°Sinfonia</button></td>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Pavarotti - Nessun dorma" onclick="img04();" id="novo3"></input></td>
+                            <td>Luciano Pavarotti</td>
+                            <td>3:16</td>
+                            <td>1994</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Joseph - 94°Sinfonia" onclick="img05();" id="novo"></input></td>
                             <td>Joseph Haydn</td>
                             <td>12:40</td>
                             <td>1801</td>  
@@ -76,7 +82,7 @@
                 <audio src = "../../musicas/classic.mp3" id = "audio"> </audio>
            
                 <div class = "img-container">
-                  <img src = "../../imagens/rapo.jpg" alt = "music-cover" id = "cover"/>
+                  <img src = "../../imagens/rapo.jpg" alt = "music-cover" id = "cover" data-container/>
                 </div>
                 <div class = "navigation">
                   <button id = "prev" class = "action-btn">

@@ -1,3 +1,72 @@
+const novoSong = document.getElementById('novo')
+const novoSong1 = document.getElementById('novo1')
+const novoSong2 = document.getElementById('novo2')
+const novoSong3 = document.getElementById('novo3')
+
+
+function img01 (){
+  document.getElementById("cover").src="../../imagens/michael.jpg"
+  novoSong.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/billieJean.mp3"
+}
+function img02 (){
+  document.getElementById("cover").src="../../imagens/beethoven.jpg"
+  novoSong1.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo1')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/moonlight.mp3"
+}
+function img03 (){
+  document.getElementById("cover").src="../../imagens/Mozart.jpg"
+  novoSong2.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo2')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/requiem.mp3"
+}
+function img04 (){
+  document.getElementById("cover").src="../../imagens/pavarotti.jpg"
+  novoSong3.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo3')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/nessunDorma.mp3"
+}
+function img05 (){
+  document.getElementById("cover").src="../../imagens/joseph.jpg"
+}
+
+
+
+
+
+
+
+
 const musicContainer = document.getElementById('music-container')
 const playBtn = document.getElementById('play')
 const prevBtn = document.getElementById('prev');

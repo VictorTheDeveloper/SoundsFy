@@ -28,6 +28,16 @@
 body {
     margin: 0%;
 }
+td input {
+  background-color: rgba(77, 77, 77, 0);
+  border: none;
+  color: rgb(214, 215, 252)
+}
+
+td input:hover {
+  color: white;
+  
+}
 
 button a {
     text-decoration: none;
@@ -51,6 +61,9 @@ h2 {
      padding-top: .3rem;
      padding-bottom: .3rem;
      
+ }
+ .estiloTD:hover {
+  background: aliceblue;
  }
 
 td button{

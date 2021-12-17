@@ -5,7 +5,7 @@ const novoSong3 = document.getElementById('novo3')
 
 
 function img01 (){
-  document.getElementById("cover").src="../../imagens/michael.jpg"
+  document.getElementById("cover").src="../../imagens/motty.jpg"
   novoSong.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo')
    
@@ -15,10 +15,10 @@ function img01 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/billieJean.mp3"
+  document.getElementById("audio").src="../../musicas/tsenoUreno.mp3"
 }
 function img02 (){
-  document.getElementById("cover").src="../../imagens/beethoven.jpg"
+  document.getElementById("cover").src="../../imagens/eitan.jpg"
   novoSong1.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo1')
    
@@ -28,7 +28,7 @@ function img02 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/moonlight.mp3"
+  document.getElementById("audio").src="../../musicas/yeeravNa.mp3"
 }
 function img03 (){
   document.getElementById("cover").src="../../imagens/Mozart.jpg"

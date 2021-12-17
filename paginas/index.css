@@ -46,7 +46,7 @@ button a {
 h2 {
     color: rgba(255, 255, 255, 0.897);
 }
-.maisPopulares, th, td {
+.maisPopulares th {
     border: 1px solid black;
     text-align: center;
     width: auto;
@@ -55,6 +55,14 @@ h2 {
     color: rgba(255, 255, 255, 0.836);
     
  }  
+ .maisPopulares td {
+  border: 1px solid black;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: rgba(19, 19, 18, 0.548);
+  color: rgba(255, 255, 255, 0.836);
+ }
  td {
      padding-right: 2rem;
      padding-left: 2rem;
@@ -219,3 +227,19 @@ h3 {
     width: 0%;
     transition: width 0.1s linear;
   }
+
+main {
+  margin-left: 1.8rem;
+}
+.mainTabela {
+  padding-top: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-bottom: 2rem;
+  border: 1px solid black;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: rgba(41, 39, 39, 0.986);
+  color: rgba(255, 255, 255, 0.836);
+}

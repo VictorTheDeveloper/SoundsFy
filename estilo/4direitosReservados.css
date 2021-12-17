@@ -56,6 +56,15 @@ td button:hover {
     opacity: 1;
     cursor: pointer;
 }
+.descricao {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: black;
+    border: solid 1px white;
+}
 p {
     color: rgb(241, 241, 255);
 }
@@ -64,6 +73,11 @@ p {
     background-color: black;
     color: white;
 }
+
+.rodapeEstilo{
+    margin-left: 2rem;
+}
+
 h3 {
     margin: 0;
 }

@@ -85,6 +85,11 @@ p {
     background-color: black;
     color: white;
 }
+
+.rodapeEstilo{
+  margin-left: 2rem;
+}
+
 h3 {
     margin: 0;
 }

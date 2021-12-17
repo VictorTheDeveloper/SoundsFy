@@ -22,7 +22,7 @@
                     <td><button type="submit"><a href="menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
                 </tr>
             </table>  
-            <p>Bem vindo ao SoundFy</p>
+            <p class="bemVindo">Bem vindo ao SoundFy</p>
             <div class="populares">
                 <h2>Mais Populares</h2>
                 <table class="maisPopulares">
@@ -71,28 +71,28 @@
 
                 <br><br><br>
             </div>
-            <div class = "music-container" id = "music-container" >
-                <div class = "music-info ">
-                  <h4  id = "title"></h4>
-                  <div class = "progress-container" id = "progress-container" >
-                    <div class = "progress" id = "progress"> </div>
+            <div class="music-container" id="music-container" >
+                <div class="music-info ">
+                  <h4 id="title"></h4>
+                  <div class="progress-container" id="progress-container" >
+                    <div class="progress" id="progress"></div>
                   </div >
                 </div >
            
-                <audio src = "../../musicas/classic.mp3" id = "audio"> </audio>
+                <audio src="../../musicas/classic.mp3" id="audio"></audio>
            
-                <div class = "img-container">
-                  <img src = "../../imagens/rapo.jpg" alt = "music-cover" id = "cover" data-container/>
+                <div class="img-container">
+                  <img src="../../imagens/rapo.jpg" alt="music-cover" id="cover" data-container/>
                 </div>
-                <div class = "navigation">
-                  <button id = "prev" class = "action-btn">
-                    <i class = "fas fa-backward"> </i>
+                <div class="navigation">
+                  <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
                   </botton>
-                  <button id = "play" class = "action-btn action-btn-big">
-                    <i class = "fas fa-play"> </i>
+                  <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
                   </botton>
-                  <button  id = "next" class = "action-btn">
-                    <i class = "fas fa-forward"> </i>
+                  <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
                   </botton>
                 </div>
               </div>
@@ -100,33 +100,38 @@
           </div>
           <main>
             <section>
+                <h2 class="mainH2">Gêneros de Música</h2>
+                <br>
+                <p class="mainP">Selecione um gênero clicando na imagem correspondente -
+                    Encontrar músicas que você gosta nunca foi tão fácil
+                </p>
                <table class="mainTabela">
                   <thead>
                       <tr>
-                          <th><img class="foto" src="../../imagens/rock.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                <figcaption>Gênego: Rock</figcaption></th>
-                          <th><img class="foto" src="../../imagens/classicaa.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
+                          <th><img class="foto" src="../../imagens/rock.jpg" onclick="location.href = 'generos/1rock.html';"alt="Rock">
+                <figcaption>Gênero: Rock</figcaption></th>
+                          <th><img class="foto" src="../../imagens/classicaa.jpg" onclick="location.href = 'generos/2classica.html';"alt="Classica">
                 <figcaption>Gênero: Clássica</figcaption></th>
-                          <th><img class="foto" src="../../imagens/gospp.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                    <figcaption>Gênego: Gospel</figcaption></th>
+                          <th><img class="foto" src="../../imagens/gospp.jpg" onclick="location.href = 'generos/3gospel.html';"alt="Gospel">
+                    <figcaption>Gênero: Gospel</figcaption></th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr>
-                        <th><img class="foto" src="../../imagens/mpb.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                            <figcaption>Gênego: MPB</figcaption></th>
-                            <th><img class="foto" src="../../imagens/pop.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                                <figcaption>Gênego: Pop</figcaption></th>
-                                <th><img class="foto" src="../../imagens/hiphop.png" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                                    <figcaption>Gênego: Hip Hop</figcaption></th>
+                        <th><img class="foto" src="../../imagens/mpb.jpg" onclick="location.href = 'generos/4mpb.html';"alt="MPB">
+                            <figcaption>Gênero: MPB</figcaption></th>
+                            <th><img class="foto" src="../../imagens/pop.jpg" onclick="location.href = 'generos/5pop.html';"alt="Pop">
+                                <figcaption>Gênero: Pop</figcaption></th>
+                                <th><img class="foto" src="../../imagens/hiphop.png" onclick="location.href = 'generos/6hiphop.html';"alt="Hip Hop">
+                                    <figcaption>Gênero: Hip Hop</figcaption></th>
                       </tr>
                       <tr>
-                        <th><img class="foto" src="../../imagens/judaico.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                            <figcaption>Gênego: Judaico</figcaption></th>
-                        <th><img class="foto" src="../../imagens/funk.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                                <figcaption>Gênego: Funk</figcaption></th>
-                        <th><img class="foto" src="../../imagens/animated.jpg" onclick="location.href = 'yuyuHakusho.html';"alt="Yu Yu Hakusho">
-                                    <figcaption>Gênego: Animação</figcaption></th> 
+                        <th><img class="foto" src="../../imagens/judaico.jpg" onclick="location.href = 'generos/7judaico.html';"alt="Judaico">
+                            <figcaption>Gênero: Judaico</figcaption></th>
+                        <th><img class="foto" src="../../imagens/funk.jpg" onclick="location.href = 'generos/8funk.html';"alt="Funk">
+                                <figcaption>Gênero: Funk</figcaption></th>
+                        <th><img class="foto" src="../../imagens/animated.jpg" onclick="location.href = 'generos/9animacao.html';"alt="Animacao">
+                                    <figcaption>Gênero: Animação</figcaption></th> 
 
                       </tr>
                   </tbody>

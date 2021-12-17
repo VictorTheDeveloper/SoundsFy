@@ -43,20 +43,14 @@ button a {
     text-decoration: none;
     color: white;
 }
-.bemVindo {
-  margin-left: .5rem;
-}
 h2 {
     color: rgba(255, 255, 255, 0.897);
+    margin-left: 2rem;
 }
-
-.populares {
-  margin-left: 1rem;
+.maisAnimacao {
+    margin-left: 2.5rem;
 }
-.maisPopulares {
-  margin-left: 1rem;
-}
-.maisPopulares th {
+.maisAnimacao th {
     border: 1px solid black;
     text-align: center;
     width: auto;
@@ -64,8 +58,9 @@ h2 {
     background-color: rgba(19, 19, 18, 0.548);
     color: rgba(255, 255, 255, 0.836);
     
+    
  }  
- .maisPopulares td {
+ .maisAnimacao td {
   border: 1px solid black;
   text-align: center;
   width: auto;
@@ -237,32 +232,3 @@ h3 {
     width: 0%;
     transition: width 0.1s linear;
   }
-
-main {
-  margin-left: 1.8rem;
-}
-.mainH2 {
-  color:black;
-  text-align: center;
-}
-.mainP {
-  padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background: black;
-    border: solid 3px rgb(80, 76, 76);
-}
-.mainTabela {
-  padding-top: .5rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  margin-bottom: 2rem;
-  border: 1px solid black;
-  text-align: center;
-  width: auto;
-  height: auto;
-  background-color: rgba(41, 39, 39, 0.986);
-  color: rgba(255, 255, 255, 0.836);
-}

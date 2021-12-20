@@ -31,7 +31,7 @@ function img02 (){
   document.getElementById("audio").src="../../musicas/yeeravNa.mp3"
 }
 function img03 (){
-  document.getElementById("cover").src="../../imagens/Mozart.jpg"
+  document.getElementById("cover").src="../../imagens/mordechaiBenD.jpg"
   novoSong2.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo2')
    
@@ -41,10 +41,10 @@ function img03 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/requiem.mp3"
+  document.getElementById("audio").src="../../musicas/rachem.mp3"
 }
 function img04 (){
-  document.getElementById("cover").src="../../imagens/pavarotti.jpg"
+  document.getElementById("cover").src="../../imagens/joshuaAaron.jpg"
   novoSong3.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo3')
    
@@ -54,11 +54,22 @@ function img04 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/nessunDorma.mp3"
+  document.getElementById("audio").src="../../musicas/gadolElohai.mp3"
 }
 function img05 (){
-  document.getElementById("cover").src="../../imagens/joseph.jpg"
+  document.getElementById("cover").src="../../imagens/ashuvEleichaFT.jpg"
+  novoSong3.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo4')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/ashuvEleicha.mp3"
 }
+
 
 
 

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SoundFy</title>
+        <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image.png" sizes="32x32" href="../../imagens/favicon-32x32.png" />
+        <link rel="icon" type="image.png" sizes="16x16" href="../../imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest"/>
+
+    </head>
+    <body>
+        <div class="corDeFundo">
+            <table class="menu">
+                <tr>
+                    <td><button type="submit">Inicio</button></td>
+                    <td><button type="submit"><a href="menu/1minhaConta.html">Minha Conta</a></button></td>
+                    <td><button type="submit"><a href="menu/2curiosidades.html">Curiosidades</a></button></td>
+                    <td><button type="submit"><a href="menu/3indicarMusica.html">Indicar Musica</a></button></td>
+                    <td><button type="submit"><a href="menu/4direitosReservados.html">Direitos Reservados</a></button></td>
+                    <td><button type="submit"><a href="menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
+                </tr>
+            </table>  
+            <p class="bemVindo">Bem vindo ao SoundFy</p>
+            <div class="populares">
+                <h2>Mais Populares</h2>
+                <table class="maisPopulares">
+                    <thead><tr>
+                        <th>Nome</th>
+                        <th>Artista</th>
+                        <th>Duração</th>
+                        <th>Ano</th>
+                    </tr> </thead>
+                     <tbody>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Michael - Billie Jean" onclick="img01();" id="novo"></input></td>
+                            <td>Michael Jackson</td>
+                            <td>4:56</td>
+                            <td>1982</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Beethoven - Moonlight Sonata" onclick="img02();" id="novo1"></input></td>
+                            <td>Beethoven</td>
+                            <td>15:00</td>
+                            <td>1801</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Mozart - Requiem" onclick="img03();" id="novo2"></input></td>
+                            <td>Amadeus Mozart</td>
+                            <td>8:54</td>
+                            <td>1791</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Pavarotti - Nessun dorma" onclick="img04();" id="novo3"></input></td>
+                            <td>Luciano Pavarotti</td>
+                            <td>3:16</td>
+                            <td>1994</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Joseph - 94°Sinfonia" onclick="img05();" id="novo"></input></td>
+                            <td>Joseph Haydn</td>
+                            <td>12:40</td>
+                            <td>1801</td>  
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                
+              
+
+                <br><br><br>
+            </div>
+            <div class="music-container" id="music-container" >
+                <div class="music-info ">
+                  <h4 id="title"></h4>
+                  <div class="progress-container" id="progress-container" >
+                    <div class="progress" id="progress"></div>
+                  </div >
+                </div >
+           
+                <audio src="../../musicas/classic.mp3" id="audio"></audio>
+           
+                <div class="img-container">
+                  <img src="../../imagens/rapo.jpg" alt="music-cover" id="cover" data-container/>
+                </div>
+                <div class="navigation">
+                  <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                  </botton>
+                  <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                  </botton>
+                  <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                  </botton>
+                </div>
+              </div>
+          </div>  
+          </div>
+          <main>
+            <section>
+                <h2 class="mainH2">Gêneros de Música</h2>
+                <br>
+                <p class="mainP">Selecione um gênero clicando na imagem correspondente -
+                    Encontrar músicas que você gosta nunca foi tão fácil
+                </p>
+               <table class="mainTabela">
+                  <thead>
+                      <tr>
+                          <th><img class="foto" src="../../imagens/rock.jpg" onclick="location.href = 'generos/1rock.html';"alt="Rock">
+                <figcaption>Gênero: Rock</figcaption></th>
+                          <th><img class="foto" src="../../imagens/classicaa.jpg" onclick="location.href = 'generos/2classica.html';"alt="Classica">
+                <figcaption>Gênero: Clássica</figcaption></th>
+                          <th><img class="foto" src="../../imagens/gospp.jpg" onclick="location.href = 'generos/3gospel.html';"alt="Gospel">
+                    <figcaption>Gênero: Gospel</figcaption></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <th><img class="foto" src="../../imagens/mpb.jpg" onclick="location.href = 'generos/4mpb.html';"alt="MPB">
+                            <figcaption>Gênero: MPB</figcaption></th>
+                            <th><img class="foto" src="../../imagens/pop.jpg" onclick="location.href = 'generos/5pop.html';"alt="Pop">
+                                <figcaption>Gênero: Pop</figcaption></th>
+                                <th><img class="foto" src="../../imagens/hiphop.png" onclick="location.href = 'generos/6hiphop.html';"alt="Hip Hop">
+                                    <figcaption>Gênero: Hip Hop</figcaption></th>
+                      </tr>
+                      <tr>
+                        <th><img class="foto" src="../../imagens/judaico.jpg" onclick="location.href = 'generos/7judaico.html';"alt="Judaico">
+                            <figcaption>Gênero: Judaico</figcaption></th>
+                        <th><img class="foto" src="../../imagens/funk.jpg" onclick="location.href = 'generos/8funk.html';"alt="Funk">
+                                <figcaption>Gênero: Funk</figcaption></th>
+                        <th><img class="foto" src="../../imagens/animated.jpg" onclick="location.href = 'generos/9animacao.html';"alt="Animacao">
+                                    <figcaption>Gênero: Animação</figcaption></th> 
+
+                      </tr>
+                  </tbody>
+               </table>
+            </section>
+        </main>
+        </div>
+    </body>
+    <footer class="rodape">
+        <div class="rodapeEstilo">
+            <br><h3>Sobre SoundFy</h3><br>
+        <p>@ Todos os direitos reservados aos autores oficiais das músicas
+            anexadas neste projeto</p><br>
+        <p>Projeto com a finalidade de adquirir mais conhecimento e domínio 
+            em programação, sem qualquer pretenção de fins lucrativos.
+            <br><br>Conhecimentos adquiridos:<br> Estilização e formatação com CSS, Estruturação 
+            com HTML e funcionalidades com JavaScript.</p><br>
+        </div>
+
+    </footer>
+    <script src="../../js/audio.js"></script>
+</html>

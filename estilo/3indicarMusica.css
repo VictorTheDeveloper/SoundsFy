@@ -1,0 +1,143 @@
+.corDeFundo {
+    background-color: rgba(29, 28, 28, 0.808);
+}
+ 
+h1 {
+    color: white;
+    padding-left: 1rem;
+}
+ 
+.menu {
+   
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+   
+ }  
+.menu tr td {
+    background-color: rgba(0, 0, 0, 0.397);
+    padding-top: .3rem;
+    padding-right: 2rem;
+}
+.menu button {
+    color: white;
+   
+}
+body {
+    margin: 0%;
+}
+ 
+.instrucao {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: black;
+    border: solid 1px white;
+}
+ 
+.formulario {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 45rem;
+    background: rgb(61, 61, 61);
+    border: solid 1px rgb(255, 255, 255);
+}
+.formulario input{
+   
+    border: solid 1.5px black;
+}
+#adicionar_tabela {
+    margin-top: 16px;
+    margin-left: 3.5rem;
+}
+ 
+button a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    color: rgba(255, 255, 255, 0.897);
+}
+ 
+ td {
+     padding-right: 2rem;
+     padding-left: 2rem;
+     padding-top: .3rem;
+     padding-bottom: .3rem;
+     
+ }
+ 
+td button{
+     width: 100%;
+     opacity: .8;
+     border: none;
+     background: none;
+     color: rgb(214, 215, 252);
+ }
+td button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+ 
+td input {
+    background-color: rgba(77, 77, 77, 0);
+    border: none;
+    color: rgb(214, 215, 252)
+  }
+ 
+  td input:hover {
+    color: white;
+   
+  }
+ 
+  button a {
+      text-decoration: none;
+      color: white;
+  }
+  h2 {
+      color: rgba(255, 255, 255, 0.897);
+  }
+ 
+ 
+  #recomendacao, th, td {
+      margin-left: 2rem;
+      border: 1px solid black;
+      text-align: center;
+      width: auto;
+      height: auto;
+      background-color: rgba(19, 19, 18, 0.548);
+      color: rgba(255, 255, 255, 0.836);
+     
+     
+}  
+   td {
+       padding-right: 2rem;
+       padding-left: 2rem;
+       padding-top: .3rem;
+       padding-bottom: .3rem;
+       
+}
+   .boldd:hover {
+    background: aliceblue;
+}
+ 
+p {
+    color: rgb(241, 241, 255);
+}
+ 
+.rodape {
+    background-color: black;
+    color: white;
+}
+.rodapeEstilo{
+    margin-left: 2rem;
+}
+h3 {
+    margin: 0;
+}

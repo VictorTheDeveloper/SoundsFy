@@ -1,0 +1,90 @@
+.corDeFundo {
+    background-color: rgba(29, 28, 28, 0.808);
+}
+ 
+h1 {
+    color: white;
+}
+ 
+.menu {
+   
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+   
+ }  
+.menu tr td {
+    background-color: rgba(0, 0, 0, 0.397);
+    padding-top: .3rem;
+    padding-right: 2rem;
+}
+.menu button {
+    color: white;
+   
+}
+body {
+    margin: 0%;
+}
+ 
+button a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    color: rgba(255, 255, 255, 0.897);
+}
+ 
+ td {
+     padding-right: 2rem;
+     padding-left: 2rem;
+     padding-top: .3rem;
+     padding-bottom: .3rem;
+     
+ }
+ 
+td button{
+     width: 100%;
+     opacity: .8;
+     border: none;
+     background: none;
+     color: rgb(214, 215, 252);
+ }
+td button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.descricao {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: black;
+    border: solid 1px white;
+}
+p {
+    color: rgb(241, 241, 255);
+}
+ 
+.rodape {
+    background-color: black;
+    color: white;
+}
+ 
+.rodapeEstilo{
+    margin-left: 2rem;
+}
+ 
+h3 {
+    margin: 0;
+}
+ 
+.corB b {
+    color: orange;
+}
+#corBacima {
+    color: white;
+}

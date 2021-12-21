@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gospel</title>
+        <link rel="stylesheet" type="text/css" href="../../estilo/_3gospel.css" media="screen" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image.png" sizes="32x32" href="../../imagens/favicon-32x32.png" />
+        <link rel="icon" type="image.png" sizes="16x16" href="../../imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest"/>
+ 
+    </head>
+    <body>
+        <div class="corDeFundo">
+            <table class="menu">
+                <tr>
+                    <td><button type="submit"><a href="../index.html">Inicio</a></button></td>
+                    <td><button type="submit"><a href="../menu/1minhaConta.html">Minha Conta</a></button></td>
+                    <td><button type="submit"><a href="../menu/2curiosidades.html">Curiosidades</a></button></td>
+                    <td><button type="submit"><a href="../menu/3indicarMusica.html">Indicar Musica</a></button></td>
+                    <td><button type="submit"><a href="../menu/4direitosReservados.html">Direitos Reservados</a></button></td>
+                    <td><button type="submit"><a href="../menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
+                </tr>
+            </table>  
+           
+            <div class="gospel">
+                <h2>Gospel</h2>
+                <table class="maisGospel">
+                    <thead><tr>
+                        <th>Nome</th>
+                        <th>Artista</th>
+                        <th>Duração</th>
+                        <th>Ano</th>
+                    </tr> </thead>
+                     <tbody>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Leonardo - Bondade" onclick="img01();" id="novo"></input></td>
+                            <td>Leonardo Gonçalves</td>
+                            <td>4:11</td>
+                            <td>2012</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Paulo - Teu Amor Não Falha" onclick="img02();" id="novo1"></input></td>
+                            <td>Paulo César Baruk</td>
+                            <td>5:19</td>
+                            <td>2019</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="JA - Descansarei" onclick="img03();" id="novo2"></input></td>
+                            <td>Jotta A</td>
+                            <td>4:59</td>
+                            <td>2012</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Livres Para Adorar - Nunca Me Deixou" onclick="img04();" id="novo3"></input></td>
+                            <td>Juliano Son</td>
+                            <td>5:56</td>
+                            <td>2006</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Fernandinho - Ainda Que A Figueira" onclick="img05();" id="novo4"></input></td>
+                            <td>Fernandinho</td>
+                            <td>4:18</td>
+                            <td>2009</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Jesus Culture - Your Love Never Fails" onclick="img06();" id="novo5"></input></td>
+                            <td>Chris Quilala</td>
+                            <td>7:57</td>
+                            <td>2008</td>  
+                        </tr>
+                    </tbody>
+                   
+                </table>
+               
+             
+ 
+                <br><br><br>
+            </div>
+            <div class="music-container" id="music-container" >
+                <div class="music-info ">
+                  <h4 id="title"></h4>
+                  <div class="progress-container" id="progress-container" >
+                    <div class="progress" id="progress"></div>
+                  </div >
+                </div >
+           
+                <audio src="../../musicas/classic.mp3" id="audio"></audio>
+           
+                <div class="img-container">
+                  <img src="../../imagens/rapo.jpg" alt="music-cover" id="cover" data-container/>
+                </div>
+                <div class="navigation">
+                  <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                  </botton>
+                  <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                  </botton>
+                  <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                  </botton>
+                </div>
+              </div>
+          </div>  
+          </div>
+        </div>
+    </body>
+    <footer class="rodape">
+        <div class="rodapeEstilo">
+            <br><h3>Sobre SoundFy</h3><br>
+        <p>@ Todos os direitos reservados aos autores oficiais das músicas
+            anexadas neste projeto</p><br>
+        <p>Projeto com a finalidade de adquirir mais conhecimento e domínio
+            em programação, sem qualquer pretenção de fins lucrativos.
+            <br><br>Conhecimentos adquiridos:<br> Estilização e formatação com CSS, Estruturação
+            com HTML e funcionalidades com JavaScript.</p><br>
+        </div>
+ 
+    </footer>
+    <script src="../../js/3gospel.js"></script>
+</html>

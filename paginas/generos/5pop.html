@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pop</title>
+        <link rel="stylesheet" type="text/css" href="../../estilo/_5pop.css" media="screen" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image.png" sizes="32x32" href="../../imagens/favicon-32x32.png" />
+        <link rel="icon" type="image.png" sizes="16x16" href="../../imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest"/>
+ 
+    </head>
+    <body>
+        <div class="corDeFundo">
+            <table class="menu">
+                <tr>
+                    <td><button type="submit"><a href="../index.html">Inicio</a></button></td>
+                    <td><button type="submit"><a href="../menu/1minhaConta.html">Minha Conta</a></button></td>
+                    <td><button type="submit"><a href="../menu/2curiosidades.html">Curiosidades</a></button></td>
+                    <td><button type="submit"><a href="../menu/3indicarMusica.html">Indicar Musica</a></button></td>
+                    <td><button type="submit"><a href="../menu/4direitosReservados.html">Direitos Reservados</a></button></td>
+                    <td><button type="submit"><a href="../menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
+                </tr>
+            </table>  
+           
+            <div class="pop">
+                <h2>Pop</h2>
+                <table class="maisPop">
+                    <thead><tr>
+                        <th>Nome</th>
+                        <th>Artista</th>
+                        <th>Duração</th>
+                        <th>Ano</th>
+                    </tr> </thead>
+                     <tbody>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="HB - Holy Secret" onclick="img01();" id="novo"></input></td>
+                            <td>HB</td>
+                            <td>5:50</td>
+                            <td>2008</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Lifehouse - Storm" onclick="img02();" id="novo1"></input></td>
+                            <td>Lifehouse</td>
+                            <td>4:01</td>
+                            <td>2005</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Journey - Don't Stop Believe" onclick="img03();" id="novo2"></input></td>
+                            <td>Journey</td>
+                            <td>8:54</td>
+                            <td>1981</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Flyleaf - All Around Me" onclick="img04();" id="novo3"></input></td>
+                            <td>Flyleaf</td>
+                            <td>3:16</td>
+                            <td>2005</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Stryper - Honestly" onclick="img05();" id="novo"></input></td>
+                            <td>Stryper</td>
+                            <td>4:05</td>
+                            <td>1986</td>  
+                        </tr>
+                    </tbody>
+                   
+                </table>
+               
+             
+ 
+                <br><br><br>
+            </div>
+            <div class="music-container" id="music-container" >
+                <div class="music-info ">
+                  <h4 id="title"></h4>
+                  <div class="progress-container" id="progress-container" >
+                    <div class="progress" id="progress"></div>
+                  </div >
+                </div >
+           
+                <audio src="../../musicas/classic.mp3" id="audio"></audio>
+           
+                <div class="img-container">
+                  <img src="../../imagens/rapo.jpg" alt="music-cover" id="cover" data-container/>
+                </div>
+                <div class="navigation">
+                  <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                  </botton>
+                  <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                  </botton>
+                  <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                  </botton>
+                </div>
+              </div>
+          </div>  
+          </div>
+        </div>
+    </body>
+    <footer class="rodape">
+        <div class="rodapeEstilo">
+            <br><h3>Sobre SoundFy</h3><br>
+        <p>@ Todos os direitos reservados aos autores oficiais das músicas
+            anexadas neste projeto</p><br>
+        <p>Projeto com a finalidade de adquirir mais conhecimento e domínio
+            em programação, sem qualquer pretenção de fins lucrativos.
+            <br><br>Conhecimentos adquiridos:<br> Estilização e formatação com CSS, Estruturação
+            com HTML e funcionalidades com JavaScript.</p><br>
+        </div>
+ 
+    </footer>
+    <script src="../../js/5pop.js"></script>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Judaico</title>
+        <link rel="stylesheet" type="text/css" href="../../estilo/_7judaica.css" media="screen" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../imagens/apple-touch-icon.png" />
+        <link rel="icon" type="image.png" sizes="32x32" href="../../imagens/favicon-32x32.png" />
+        <link rel="icon" type="image.png" sizes="16x16" href="../../imagens/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest"/>
+ 
+    </head>
+    <body>
+        <div class="corDeFundo">
+            <table class="menu">
+                <tr>
+                    <td><button type="submit"><a href="../index.html">Inicio</a></button></td>
+                    <td><button type="submit"><a href="../menu/1minhaConta.html">Minha Conta</a></button></td>
+                    <td><button type="submit"><a href="../menu/2curiosidades.html">Curiosidades</a></button></td>
+                    <td><button type="submit"><a href="../menu/3indicarMusica.html">Indicar Musica</a></button></td>
+                    <td><button type="submit"><a href="../menu/4direitosReservados.html">Direitos Reservados</a></button></td>
+                    <td><button type="submit"><a href="../menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
+                </tr>
+            </table>  
+           
+            <div class="judaico">
+                <h2>Judaico</h2>
+                <table class="maisJudaico">
+                    <thead><tr>
+                        <th>Nome</th>
+                        <th>Artista</th>
+                        <th>Duração</th>
+                        <th>Ano</th>
+                    </tr> </thead>
+                     <tbody>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Motty - Tseno Ureno" onclick="img01();" id="novo"></input></td>
+                            <td>Motty Steinmetz</td>
+                            <td>6:25</td>
+                            <td>2015</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Eitan - Ye'erav Na" onclick="img02();" id="novo1"></input></td>
+                            <td>Eitan Katz</td>
+                            <td>6:14</td>
+                            <td>2005</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="MBD - Rachem" onclick="img03();" id="novo2"></input></td>
+                            <td>Mordechai Ben David</td>
+                            <td>6:42</td>
+                            <td>2002</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Joshua - Gadol Elohai" onclick="img04();" id="novo3"></input></td>
+                            <td>Joshua Aaron</td>
+                            <td>4:47</td>
+                            <td>2013</td>  
+                        </tr>
+                        <tr class="estiloTD">
+                            <td><input type="button" value="Yaron - Ashuv Eilecha" onclick="img05();" id="novo4"></input></td>
+                            <td>Yaron Cherniak</td>
+                            <td>4:27</td>
+                            <td>2015</td>  
+                        </tr>
+                    </tbody>
+                   
+                </table>
+               
+             
+ 
+                <br><br><br>
+            </div>
+            <div class="music-container" id="music-container" >
+                <div class="music-info ">
+                  <h4 id="title"></h4>
+                  <div class="progress-container" id="progress-container" >
+                    <div class="progress" id="progress"></div>
+                  </div >
+                </div >
+           
+                <audio src="../../musicas/classic.mp3" id="audio"></audio>
+           
+                <div class="img-container">
+                  <img src="../../imagens/rapo.jpg" alt="music-cover" id="cover" data-container/>
+                </div>
+                <div class="navigation">
+                  <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                  </botton>
+                  <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                  </botton>
+                  <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                  </botton>
+                </div>
+              </div>
+          </div>  
+          </div>
+        </div>
+    </body>
+    <footer class="rodape">
+        <div class="rodapeEstilo">
+            <br><h3>Sobre SoundFy</h3><br>
+        <p>@ Todos os direitos reservados aos autores oficiais das músicas
+            anexadas neste projeto</p><br>
+        <p>Projeto com a finalidade de adquirir mais conhecimento e domínio
+            em programação, sem qualquer pretenção de fins lucrativos.
+            <br><br>Conhecimentos adquiridos:<br> Estilização e formatação com CSS, Estruturação
+            com HTML e funcionalidades com JavaScript.</p><br>
+        </div>
+ 
+    </footer>
+    <script src="../../js/7judaico.js"></script>
+</html>

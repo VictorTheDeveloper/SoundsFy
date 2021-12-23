@@ -18,8 +18,7 @@
  }  
 .menu tr td {
     background-color: rgba(0, 0, 0, 0.397);
-    padding-top: .3rem;
-    padding-right: 2rem;
+    
 }
 .menu button {
     color: white;
@@ -72,14 +71,9 @@ h2 {
   height: auto;
   background-color: rgba(19, 19, 18, 0.548);
   color: rgba(255, 255, 255, 0.836);
+  
  }
- td {
-     padding-right: 2rem;
-     padding-left: 2rem;
-     padding-top: .3rem;
-     padding-bottom: .3rem;
      
- }
  .estiloTD:hover {
   background: aliceblue;
  }
@@ -127,7 +121,7 @@ h3 {
  
   .img-container {
     position: relative;
-    width: 110px;
+    width: 100%;
   }
  
   .img-container::after {
@@ -140,13 +134,14 @@ h3 {
     width: 20px;
     height: 20px;
     transform: translate(-50%, 50%);
+    
   }
  
   .img-container img {
     border-radius: 50%;
     object-fit: cover;
     height: 110px;
-    width: inherit;
+    width: 100px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -183,7 +178,7 @@ h3 {
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
-    margin: 0 20px;
+    
   }
  
   .action-btn.action-btn-big {

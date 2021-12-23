@@ -3,8 +3,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=01">
         <title>SoundFy</title>
         <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="responsivo.css" media="screen" />
         <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
         <link rel="icon" type="image.png" sizes="32x32" href="imagens/favicon-32x32.png" />
         <link rel="icon" type="image.png" sizes="16x16" href="imagens/favicon-16x16.png" />
@@ -13,6 +15,7 @@
     </head>
     <body>
         <div class="corDeFundo">
+            <div class="divMenu">
             <table class="menu">
                 <tr>
                     <td><button type="submit">Inicio</button></td>
@@ -23,7 +26,9 @@
                     <td><button type="submit"><a href="paginas/menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
                 </tr>
             </table>  
-            <p class="bemVindo">Bem vindo ao SoundFy</p>
+        </div>
+        <br>
+            <p class="bemVindo">Bem vindo ao SoundFy</p><br><br>
             <div class="populares">
                 <h2>Mais Populares</h2>
                 <table class="maisPopulares">
@@ -35,25 +40,25 @@
                     </tr> </thead>
                      <tbody>
                         <tr class="estiloTD">
-                            <td><input type="button" value="Michael - Billie Jean" onclick="img01();" id="novo"></input></td>
+                            <td><input type="button" value="Billie Jean" onclick="img01();" id="novo"></input></td>
                             <td>Michael Jackson</td>
                             <td>4:56</td>
                             <td>1982</td>  
                         </tr>
                         <tr class="estiloTD">
-                            <td><input type="button" value="Beethoven - Moonlight Sonata" onclick="img02();" id="novo1"></input></td>
+                            <td><input type="button" value="Moonlight Sonata" onclick="img02();" id="novo1"></input></td>
                             <td>Beethoven</td>
                             <td>15:00</td>
                             <td>1801</td>  
                         </tr>
                         <tr class="estiloTD">
-                            <td><input type="button" value="Mozart - Requiem" onclick="img03();" id="novo2"></input></td>
+                            <td><input type="button" value="Requiem" onclick="img03();" id="novo2"></input></td>
                             <td>Amadeus Mozart</td>
                             <td>8:54</td>
                             <td>1791</td>  
                         </tr>
                         <tr class="estiloTD">
-                            <td><input type="button" value="Pavarotti - Nessun dorma" onclick="img04();" id="novo3"></input></td>
+                            <td><input type="button" value="Nessun dorma" onclick="img04();" id="novo3"></input></td>
                             <td>Luciano Pavarotti</td>
                             <td>3:16</td>
                             <td>1994</td>  
@@ -86,9 +91,7 @@
                   <img src="imagens/cavaleiroinsta.jpg" alt="music-cover" id="cover" data-container/>
                 </div>
                 <div class="navigation">
-                  <button id="prev" class="action-btn">
-                    <i class="fas fa-backward"></i>
-                  </botton>
+                  
                   <button id="play" class="action-btn action-btn-big">
                     <i class="fas fa-play"></i>
                   </botton>
@@ -105,7 +108,8 @@
                 <br>
                 <p class="mainP">Selecione um gênero clicando na imagem correspondente -
                     Encontrar músicas que você gosta nunca foi tão fácil
-                </p>
+                </p><br>
+            <div class="divGeneros">
                <table class="mainTabela">
                   <thead>
                       <tr>
@@ -137,9 +141,20 @@
                       </tr>
                   </tbody>
                </table>
+            </div>
             </section>
         </main>
         </div>
+        <script>
+            window.addEventListener('load'.() =>{
+                let tbody=document.querySelector('tbody')
+                let t=''
+                for (let i=0; i<10; i++) {
+                    t+=tbody.innerHTML
+                }
+                tbody.innerHTML=t
+            })
+        </script>
     </body>
     <footer class="rodape">
         <div class="rodapeEstilo">

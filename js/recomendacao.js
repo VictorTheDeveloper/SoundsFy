@@ -1,10 +1,31 @@
+var hamburguer = document.querySelector(".hamburguer");
+ 
+hamburguer.addEventListener("click", function(){
+     document.querySelector(".container").classList.toggle("show-menu");
+});
+
+
 var botao_adicionar = document.querySelector("#adicionar_tabela");
 var campo_nome = document.querySelector("input[name='nome']");
 var campo_autor = document.querySelector("input[name='autor']");
 var campo_duracao = document.querySelector("input[name='duracao']");
 var campo_ano = document.querySelector("input[name='ano']");
 var corpo_tabela = document.getElementById('recomendacao');
- 
+
+/*
+const localStorageMusicas = JSON.parse(localStorage.getItem('transactions'))
+let transactions = localStorage.getItem('transactions') !== null ? localStorageMusicas : []
+
+
+const updateLocalStorage = () => {
+    localStorage.setItem('transactions', JSON.stringify(transactions))
+}
+*/
+
+function salvar() {
+    localStorage.info = document.getElementById('dado').value;
+}
+
 function enviarMusica(nome, autor, duracao, ano) {
     this.nome = nome;
     this.autor = autor;
@@ -55,12 +76,14 @@ this.criar_linha_tabela = function () {
  
 function adicionar(event) {
     event.preventDefault();
-    nova_musica = new enviarMusica(campo_nome.value, campo_autor.value, campo_duracao.value, campo_ano.value);
-    nova_musica.criar_linha_tabela();
+    transactions = new enviarMusica(campo_nome.value, campo_autor.value, campo_duracao.value, campo_ano.value);
+    transactions.criar_linha_tabela();
+    updateLocalStorage()
+
 }
  
 botao_adicionar.addEventListener('click', adicionar);
- 
+
 /*
 function enviarMusica(nome, autor, duracao, ano) {
  

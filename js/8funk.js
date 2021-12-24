@@ -1,3 +1,10 @@
+var hamburguer = document.querySelector(".hamburguer");
+ 
+hamburguer.addEventListener("click", function(){
+     document.querySelector(".container").classList.toggle("show-menu");
+});
+
+
 
 const novoSong = document.getElementById('novo')
 const novoSong1 = document.getElementById('novo1')

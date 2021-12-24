@@ -11,11 +11,44 @@
         <link rel="icon" type="image.png" sizes="32x32" href="imagens/favicon-32x32.png" />
         <link rel="icon" type="image.png" sizes="16x16" href="imagens/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Linden+Hill&family=Piazzolla:wght@200&family=Rampart+One&family=Yatra+One&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <div class="corDeFundo">
-            <div class="divMenu">
+            <div class="container">
+                <div class="hamburguer">
+                <div class="line" id="line1"> </div>
+                <div class="line" id="line2"> </div>
+                <div class="line" id="line3"> </div>
+                <span>Fechar</span>
+                </div>
+                
+         
+                <aside class="sidebar">
+                   
+                    <nav>
+                        <ul class="menu1">
+                            <li class="menu-item"><a href="#" class="menu-link">Inicio</a></li>
+                            <li class="menu-item"><a href="paginas/menu/1minhaConta.html" class="menu-link">Minha Conta</a></li>
+                            <li class="menu-item"><a href="paginas/menu/2curiosidades.html" class="menu-link">Curiosidades</a></li>
+                            <li class="menu-item"><a href="paginas/menu/3indicarMusica.html" class="menu-link">Indicar Música</a></li>
+                            <li class="menu-item"><a href="paginas/menu/4direitosReservados.html" class="menu-link">Direitos Autorais</a></li>
+                            <li class="menu-item"><a href="paginas/menu/5loginSair.html" class="menu-link">Login/Sair</a></li>
+                        </ul>
+                    </nav>
+         
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+         
+                </aside>
+        
+         <!--   <div class="divMenu">
             <table class="menu">
                 <tr>
                     <td><button type="submit">Inicio</button></td>
@@ -26,11 +59,14 @@
                     <td><button type="submit"><a href="paginas/menu/5loginSair.html">Login/Sair da sua Conta</a></button></td>
                 </tr>
             </table>  
-        </div>
+        </div> -->
+        <p class="soundFyP">SoundFy</p>
+        <br>
+        <img class="fone" src="imagens/foneSFypng.png" alt="fone">
         <br>
             <p class="bemVindo">Bem vindo ao SoundFy</p><br><br>
             <div class="populares">
-                <h2>Mais Populares</h2>
+                <h2 class="popularH2">Mais Populares</h2><br>
                 <table class="maisPopulares">
                     <thead><tr>
                         <th>Nome</th>

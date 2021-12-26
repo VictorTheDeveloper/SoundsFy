@@ -169,26 +169,22 @@
     .popularH2 {
         font-size: 35px;
     }
-    .maisPopulares {
+    .maisGeneros {
           width: 92%;
     }
-    .maisPopulares th {
+    .maisGeneros th {
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 20px;
     }
-    .maisPopulares input {
+    .maisGeneros input {
         font-size: 18px;
         font-family: 'Piazzolla', serif;
     }
-    .maisPopulares td {
+    .maisGeneros td {
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 20px;
-    }
-
-    .mainTabela img{
-      width: 232px;
     }
 
 
@@ -242,27 +238,25 @@
     .popularH2 {
         font-size: 45px;
     }
-    .maisPopulares {
+    .maisGeneros {
           width: 92%;
     }
-    .maisPopulares th {
+    .maisGeneros th {
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 26px;
     }
-    .maisPopulares input {
+    .maisGeneros input {
         font-size: 25px;
         font-family: 'Piazzolla', serif;
     }
-    .maisPopulares td {
+    .maisGeneros td {
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 25px;
     }
 
-    .mainTabela img{
-      width: 305px;
-    }
+    
 
 }
 
@@ -326,25 +320,23 @@
       .popularH2 {
           font-size: 45px;
       }
-      .maisPopulares {
+      .maisGeneros {
             width: 90%;
       }
-      .maisPopulares th {
+      .maisGeneros th {
           padding-top: 10px;
           padding-bottom: 10px;
           font-size: 30px;
       }
-      .maisPopulares input {
+      .maisGeneros input {
           font-size: 30px;
           font-family: 'Piazzolla', serif;
       }
-      .maisPopulares td {
+      .maisGeneros td {
           padding-top: 20px;
           padding-bottom: 20px;
           font-size: 30px;
       }
 
-      .mainTabela img{
-        width: 380px;
-      }
+      
 }

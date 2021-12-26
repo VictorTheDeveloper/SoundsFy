@@ -194,10 +194,10 @@ h2 {
     color: rgba(255, 255, 255, 0.897);
     margin-left: 2rem;
 }
-.maisFunk {
+.maisGeneros {
     margin-left: 2.5rem;
 }
-.maisFunk th {
+.maisGeneros th {
     border: 1px solid black;
     text-align: center;
     width: auto;
@@ -207,7 +207,7 @@ h2 {
    
    
  }  
- .maisFunk td {
+ .maisGeneros td {
   border: 1px solid black;
   text-align: center;
   width: auto;

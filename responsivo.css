@@ -347,4 +347,43 @@
       .mainTabela img{
         width: 380px;
       }
+      h1 {
+          font-size: 40px;
+      }
+      .curiosidadeH2 {
+          font-size: 50px;
+      }
+      #curiosidadesIMG {
+        padding-left: 20.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+      }
+      .curiosidadesP {
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1.5rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        font-size: 30px;
+      }
+      .maisGeneros {
+        margin-left: 7.5rem;
+        width: 80%;
+      }
+      .maisGeneros th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+      }  
+      .maisGeneros input {
+        font-size: 30px;
+        font-family: 'Piazzolla', serif;
+    }
+      .maisGeneros td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+      }
 }

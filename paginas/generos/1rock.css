@@ -379,3 +379,155 @@ h3 {
     width: 0%;
     transition: width 0.1s linear;
   }
+/*
+.volume-control {
+  background: gray;
+}
+
+  [type="range"] {
+    margin: 0;
+    padding: 0;
+    width: 52px;
+    height: 1.5em;
+    background: transparent;
+    outline: none;
+}
+
+[type="range"],
+[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+[type="range"]::-webkit-slider-thumb {
+    box-sizing: border-box;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+[type="range"]::-moz-range-thumb {
+    box-sizing: border-box;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+ .controls .left-side-controls .volume-control {
+    height: 100%;
+    display: flex;
+}
+
+ .controls .left-side-controls .volume-control .volume-panel {
+    position: relative;
+    width: 0px;
+    transition: width .2s;
+    overflow: hidden;
+}
+
+ .controls .left-side-controls .volume-control .volume-panel .input-div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 52px;
+    height: 3px;
+}
+
+.controls .left-side-controls .volume-control .volume-panel .input-div .volume-input-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #424242;
+}
+
+.controls .left-side-controls .volume-control .volume-panel .input-div .volume-input-div input {
+    position: absolute;
+    top: -8.5px;
+    cursor: pointer;
+}
+
+.controls .left-side-controls .volume-control .volume-panel .input-div .volume-input-div .volume-progress {
+    background: #fff;
+    width: 52px;
+    height: 100%;
+}
+
+.controls .left-side-controls .time-display {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 0 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+.controls .right-side-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+  /*
+  section {
+    width: 800px;
+    height: 300px;
+    transform: translate(300px, 100px);
+  }
+
+  .sound{
+    width: 200px;
+    height: 100%;
+    float: left;
+  }
+
+  svg {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .volume {
+    width: 600px;
+    float: left;
+  }
+
+  .inputVolume {
+    width: 600px;
+    -webkit-appearance: none;
+    height: 30px;
+    background: #dcf1f1;
+    outline: none;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .inputVolume::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: purple;
+    cursor: pointer;
+    box-shadow: -300px 0 0 300px #00ffc4;
+  }
+
+  span {
+    position: absolute;
+    right: -100px;
+    top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .sound1{
+    display: none;
+  }
+
+  */

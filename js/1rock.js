@@ -178,3 +178,110 @@ audio.addEventListener('timeupdate', updateProgress)
  
 progressContainer.addEventListener('click', setProgress)
  
+
+/*
+const controlContainer = document.querySelector('.controls-container');
+const leftSideControls = document.querySelector('.left-side-controls');
+
+const fullVolumeButton = volumeButton.querySelector('.full-volume');
+const halfVolumeButton = volumeButton.querySelector('.half-volume');
+const mutedButton = volumeButton.querySelector('.muted');
+const volumeButton = document.querySelector('.volume-btn');
+
+halfVolumeButton.style.display = 'none';
+mutedButton.style.display = 'none';
+
+const volumeControl = document.querySelector('.volume-control');
+const volumePanel = document.querySelector('.volume-panel');
+const volumeRange = volumePanel.querySelector('input');
+const volumeProgress = volumePanel.querySelector('.volume-progress');
+
+
+
+volumeButton.addEventListener('click', toggleMute);
+
+volumeRange.addEventListener('input', function(e) {
+  volumeProgress.style.width = volumeRange.value + '%';
+
+  video.volume = volumeRange.value / 100;
+
+  if (volumeRange.value <= 0) {
+      fullVolumeButton.style.display = 'none';
+      halfVolumeButton.style.display = 'none';
+      mutedButton.style.display = '';
+  } else if (volumeRange.value <= 50) {
+      video.muted = false;
+      fullVolumeButton.style.display = 'none';
+      halfVolumeButton.style.display = '';
+      mutedButton.style.display = 'none';
+  } else if (volumeRange.value > 50) {
+      video.muted = false;
+      fullVolumeButton.style.display = '';
+      halfVolumeButton.style.display = 'none';
+      mutedButton.style.display = 'none';
+  }
+}, false);
+
+
+
+volumeButton.addEventListener('mouseenter', function() {
+  volumeControl.style.margin = '0px 2px 0px 0px';
+  volumePanel.style.width = '52px';
+});
+
+leftSideControls.addEventListener('mouseleave', function() {
+  volumeControl.style.margin = '0px 0px 0px 0px';
+  volumePanel.style.width = '0px';
+});
+
+setInterval(function() {
+  volumeProgress.style.width = volumeRange.value + '%';
+}, 1);
+
+const toggleMute = () => {
+  video.muted = !video.muted;
+  if (video.muted) {
+      fullVolumeButton.style.display = 'none';
+      halfVolumeButton.style.display = 'none';
+      mutedButton.style.display = '';
+      volumeRange.value = '0';
+  } else {
+      volumeRange.value = video.volume * 100;
+
+      if (video.volume <= 0.5) {
+          fullVolumeButton.style.display = 'none';
+          halfVolumeButton.style.display = '';
+          mutedButton.style.display = 'none';
+      } else if (video.volume > 0.5) {
+          fullVolumeButton.style.display = '';
+          halfVolumeButton.style.display = 'none';
+          mutedButton.style.display = 'none';
+      }      
+  }
+};
+
+*/
+/*
+var line = document.getElementsById('inputVolume');
+line.addEventListener('mousemove', function () {
+  var pervalue = document.getElementById('pervalue');
+  var sp = document.getElementsByTagName('span')[0];
+  if (line.value == 0) {
+    pervalue.innerHTML = "";
+    var sound = document.getElementsByClassName('sound1');
+    for(var i=0; i<sound.length; i++) {
+      sound[i].style.display = "none";
+    } 
+    document.getElementsById('mute').style.display = "block";
+  }
+  if (line.value > 0) {
+    pervalue.innerHTML = line.value + "%";
+    var sound = document.getElementsByClassName('sound1');
+    for(var i=0; i<sound.length; i++) {
+      sound[i].style.display = "block";
+    } 
+    document.getElementsById('mute').style.display = "none";
+  }
+})
+*/
+

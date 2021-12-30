@@ -12,7 +12,7 @@ const novoSong3 = document.getElementById('novo3')
 
 
 function img01 (){
-  document.getElementById("cover").src="../../imagens/michael.jpg"
+  document.getElementById("cover").src="../../imagens/beatles.png"
   novoSong.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo')
    
@@ -22,7 +22,7 @@ function img01 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/billieJean.mp3"
+  document.getElementById("audio").src="../../musicas/hereComesTheSun.mp3"
 }
 function img02 (){
   document.getElementById("cover").src="../../imagens/beethoven.jpg"

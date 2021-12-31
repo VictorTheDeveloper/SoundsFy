@@ -25,7 +25,7 @@ function img01 (){
   document.getElementById("audio").src="../../musicas/hereComesTheSun.mp3"
 }
 function img02 (){
-  document.getElementById("cover").src="../../imagens/beethoven.jpg"
+  document.getElementById("cover").src="../../imagens/laVouEu.jpg"
   novoSong1.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo1')
    
@@ -35,10 +35,10 @@ function img02 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/moonlight.mp3"
+  document.getElementById("audio").src="../../musicas/laVouEu.mp3"
 }
 function img03 (){
-  document.getElementById("cover").src="../../imagens/Mozart.jpg"
+  document.getElementById("cover").src="../../imagens/pagodeJapones.jpg"
   novoSong2.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo2')
    
@@ -48,10 +48,10 @@ function img03 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/requiem.mp3"
+  document.getElementById("audio").src="../../musicas/queridoMeuAmor.mp3"
 }
 function img04 (){
-  document.getElementById("cover").src="../../imagens/pavarotti.jpg"
+  document.getElementById("cover").src="../../imagens/Codz.jpg"
   novoSong3.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo3')
    
@@ -61,10 +61,20 @@ function img04 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/nessunDorma.mp3"
+  document.getElementById("audio").src="../../musicas/eternoAzul.mp3"
 }
 function img05 (){
-  document.getElementById("cover").src="../../imagens/joseph.jpg"
+  document.getElementById("cover").src="../../imagens/aladin.jpg"
+  novoSong3.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo4')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/nuncaTeveUmAmigoAssim.mp3"
 }
 
 

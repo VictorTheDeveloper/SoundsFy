@@ -183,7 +183,20 @@ body {
 }
  
 .imagemAvatar {
-    width: 5rem;
+    width: 80rem;
+    margin-left: 5rem;
+}
+.minhaContaH1 {
+  font-size: 50px;
+  margin-left: 2rem;
+}
+.minhaContaH2 {
+  font-size: 40px;
+  text-align: center;
+}
+.minhaContaP {
+  font-size: 30px;
+  text-align: center;
 }
  
 button a {

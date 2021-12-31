@@ -13,7 +13,7 @@ const novoSong3 = document.getElementById('novo3')
 
 
 function img01 (){
-  document.getElementById("cover").src="../../imagens/michael.jpg"
+  document.getElementById("cover").src="../../imagens/earthW.jpg"
   novoSong.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo')
    
@@ -23,10 +23,10 @@ function img01 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/billieJean.mp3"
+  document.getElementById("audio").src="../../musicas/boogieW.mp3"
 }
 function img02 (){
-  document.getElementById("cover").src="../../imagens/beethoven.jpg"
+  document.getElementById("cover").src="../../imagens/koolE.jpg"
   novoSong1.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo1')
    
@@ -36,10 +36,10 @@ function img02 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/moonlight.mp3"
+  document.getElementById("audio").src="../../musicas/celebration.mp3"
 }
 function img03 (){
-  document.getElementById("cover").src="../../imagens/Mozart.jpg"
+  document.getElementById("cover").src="../../imagens/benE.jpg"
   novoSong2.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo2')
    
@@ -49,10 +49,10 @@ function img03 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/requiem.mp3"
+  document.getElementById("audio").src="../../musicas/standByMe.mp3"
 }
 function img04 (){
-  document.getElementById("cover").src="../../imagens/pavarotti.jpg"
+  document.getElementById("cover").src="../../imagens/aintN.jpg"
   novoSong3.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('novo3')
    
@@ -62,10 +62,20 @@ function img04 (){
       playSong()
     }
   })
-  document.getElementById("audio").src="../../musicas/nessunDorma.mp3"
+  document.getElementById("audio").src="../../musicas/aintNoMountain.mp3"
 }
 function img05 (){
-  document.getElementById("cover").src="../../imagens/joseph.jpg"
+  document.getElementById("cover").src="../../imagens/theJackson.jpg"
+  novoSong3.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('novo4')
+   
+    if(isPlaying) {
+      pauseSong()
+    } else {
+      playSong()
+    }
+  })
+  document.getElementById("audio").src="../../musicas/iWantYouBack.mp3"
 }
 
 

@@ -1,0 +1,1127 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+.divMenu{display: flex; margin: auto;}
+.menu{width: 100%; text-align: center;}
+    
+    .menu tbody tr td:nth-child(1){width: 10%;}
+    .menu tbody tr td:nth-child(2){width: 10%;}
+    .menu tbody tr td:nth-child(3){width: 10%;}
+    .menu tbody tr td:nth-child(4){width: 10%;}
+    .menu tbody tr td:nth-child(5){width: 15%;}
+    .menu tbody tr td:nth-child(6){width: 15%;}
+
+@media screen and (min-width: 0) {  /*celulares*/
+    .maisPopulares tbody tr td:nth-child(1){width: 25%; height: 35px;}
+    .maisPopulares tbody tr td:nth-child(2){width: 25%; height: 35px;}
+    .maisPopulares tbody tr td:nth-child(3){width: 25%; height: 35px;}
+    .maisPopulares tbody tr td:nth-child(4){width: 25%; height: 35px;}
+
+    
+
+
+    .divGeneros {
+        overflow-x: auto;
+    }
+    .corDeFundo {
+        width: 100%;
+    }
+    .maisPopulares {
+        size: 100%;
+    }
+    .music-container {
+        size: 100%;
+    }
+    .img-container {
+        width: 50px;
+    }
+    .music-info {
+        size: 100%;
+    }
+   
+
+
+    .img-container {
+        width: 50px;
+    }
+    .img-container img {
+        width: 100px;
+    }
+    .img-container::after {
+        margin-left: 47%;
+    }
+    .action-btn {
+        margin: 0 10px;
+        position: relative;
+        left:50px;
+    }
+
+    .soundFyP {
+        font-size: 35px;
+    }
+    .hamburguer {
+        width: 2rem;
+        height: 2rem;
+    }
+    .show-menu #line1{
+        transform: rotate(40deg) translate(.2rem, .3rem);
+      }
+      
+      .show-menu #line2{
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .show-menu #line3{
+        transform: rotate(-55deg) translate(.4rem, -.45rem);
+      }
+
+    .fone {
+        width: 18rem;
+        padding-left: 5rem;
+      }
+
+      .bemVindo {
+        font-size: 22px;
+    }
+    .popularH2 {
+        font-size: 35px;
+    }
+    .maisPopulares {
+          width: 93%;
+    }
+    .maisPopulares th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .maisPopulares input {
+        font-size: 12px;
+        
+        font-family: 'Piazzolla', serif;
+    }
+    .maisPopulares td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .mainTabela img{
+      width: 310px;
+    }
+      
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 20px;
+    }
+    .maisGeneros {
+      margin-left: 7rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+    }  
+    .maisGeneros input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+
+/*
+    .mainTabela thead tr th img:nth-child(1){width: 95%; height: auto;}
+    .mainTabela thead tr th img:nth-child(2){width: 30%; height: auto;}
+    .mainTabela thead tr th img:nth-child(3){width: 30%; height: auto;}
+
+    .mainTabela tbody tr th img:nth-child(1){width: 95%; height: auto;}
+    .mainTabela tbody tr th img:nth-child(2){width: 15%; height: auto;}
+    .mainTabela tbody tr th img:nth-child(3){width: 15%; height: auto;}
+    .mainTabela tbody tr th img:nth-child(4){width: 15%; height: auto;}
+    .mainTabela tbody tr th img:nth-child(5){width: 15%; height: auto;}
+    .mainTabela tbody tr th img:nth-child(6){width: 15%; height: auto;}*/
+}
+@media screen and (min-width: 350px) { 
+
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 40px;
+    }
+    .maisGeneros {
+      margin-left: 7rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+    }  
+    .maisGeneros input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+}
+@media screen and (min-width: 425px) { 
+
+    .fone {
+        width: 22rem;
+        padding-left: 5rem;
+      }
+
+      .bemVindo {
+        font-size: 22px;
+    }
+    .popularH2 {
+        font-size: 35px;
+    }
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 40px;
+    }
+    .maisGeneros {
+      margin-left: 7rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+    }  
+    .maisGeneros input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+    .imagemAvatar {
+        width: 65rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 50px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 40px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 30px;
+        text-align: center;
+        }
+}
+
+@media screen and (min-width: 768px) { /*tablets*/
+    .img-container {
+        width: 50px;
+    }
+    .img-container img {
+        width: 113px;
+    }
+    .img-container::after {
+        margin-left: 47%;
+    }
+    .action-btn {
+        margin: 0 10px;
+        position: relative;
+        left:70px;
+    }
+
+    .soundFyP {
+        font-size: 50px;
+    }
+    .hamburguer {
+        width: 3rem;
+        height: 3rem;
+    }
+    .show-menu #line1{
+        transform: rotate(40deg) translate(.5rem, .4rem);
+      }
+      
+      .show-menu #line2{
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .show-menu #line3{
+        transform: rotate(-55deg) translate(.7rem, -.43rem);
+      }
+
+    .fone {
+        width: 40rem;
+        padding-left: 12rem;
+      }
+      .bemVindo {
+        font-size: 27px;
+    }
+    .popularH2 {
+        font-size: 35px;
+    }
+    .maisPopulares {
+          width: 92%;
+    }
+    .maisPopulares th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .maisPopulares input {
+        font-size: 18px;
+        font-family: 'Piazzolla', serif;
+    }
+    .maisPopulares td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .mainTabela img{
+      width: 232px;
+    }
+
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 40px;
+    }
+    .maisGeneros {
+      margin-left: 7rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+    }  
+    .maisGeneros input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+    .imagemAvatar {
+        width: 52rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 50px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 40px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 30px;
+        text-align: center;
+        }
+
+}
+
+@media screen and (min-width: 850px) { 
+
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 800px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 25px;
+    }
+    .maisGeneros {
+      margin-left: 6rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 23px;
+    }  
+    .maisGeneros input {
+      font-size: 23px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 992px) { /*desktops antigos*/
+    .img-container {
+        width: 130px;
+    }
+    
+    .img-container img {
+        width: 110px;
+    }
+    .img-container::after {
+        margin-left: -10%;
+    }
+    .action-btn {
+        margin: 0 10px;
+        position: relative;
+        left:10px;
+    }
+
+    .soundFyP {
+        font-size: 50px;
+    }
+    .hamburguer {
+        width: 4rem;
+        height: 4rem;
+    }
+    .show-menu #line1{
+        transform: rotate(40deg) translate(.6rem, .5rem);
+      }
+      
+      .show-menu #line2{
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .show-menu #line3{
+        transform: rotate(-55deg) translate(.9rem, -.54rem);
+      }
+
+    .fone {
+        width: 55rem;
+        padding-left: 12rem;
+      }
+
+      .bemVindo {
+        font-size: 35px;
+    }
+    .popularH2 {
+        font-size: 45px;
+    }
+    .maisPopulares {
+          width: 92%;
+    }
+    .maisPopulares th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 26px;
+    }
+    .maisPopulares input {
+        font-size: 25px;
+        font-family: 'Piazzolla', serif;
+    }
+    .maisPopulares td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .mainTabela img{
+      width: 305px;
+    }
+    .mainH2 {
+        font-size: 35px;
+    }
+    .mainP { 
+        font-size: 18px;
+    }
+  
+    .mainTabela img{
+      width: 305px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .imagemAvatar {
+        width: 55rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 50px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 40px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 30px;
+        text-align: center;
+        }
+
+}
+
+@media screen and (min-width: 1100px) { 
+
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 10.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 20px;
+    }
+    .maisGeneros {
+      margin-left: 7rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+    }  
+    .maisGeneros input {
+      font-size: 25px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+    }
+    .imagemAvatar {
+        width: 60rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 50px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 40px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 30px;
+        text-align: center;
+        }
+}
+
+@media screen and (min-width: 1200px) { /*Tv e desktops novos*/
+    
+    .menu tr td {
+        padding-top: .3rem;
+        padding-right: 2rem;
+    }
+
+    td {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        
+    }
+
+    .img-container {
+        width: 130px;
+    }
+    
+    .img-container img {
+        width: 120px;
+    }
+    .img-container::after {
+        margin-left: 0%;
+    }
+    .action-btn {
+        margin: 0 20px;
+    }
+
+    .soundFyP {
+        font-size: 50px;
+    }
+    .hamburguer {
+        width: 4rem;
+        height: 4rem;
+    }
+    .show-menu #line1{
+        transform: rotate(40deg) translate(.6rem, .5rem);
+      }
+      
+      .show-menu #line2{
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .show-menu #line3{
+        transform: rotate(-55deg) translate(.9rem, -.54rem);
+      }
+      
+
+    .fone {
+        width: 65rem;
+        padding-left: 14rem;
+      }
+      .bemVindo {
+          font-size: 35px;
+      }
+      .popularH2 {
+          font-size: 45px;
+      }
+      .maisPopulares {
+            width: 90%;
+      }
+      .maisPopulares th {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 30px;
+      }
+      .maisPopulares input {
+          font-size: 30px;
+          font-family: 'Piazzolla', serif;
+      }
+      .maisPopulares td {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-size: 30px;
+      }
+
+      .mainTabela img{
+        width: 380px;
+      }
+      h1 {
+          font-size: 40px;
+      }
+      .mainH2 {
+        font-size: 45px;
+    }
+    .mainP { 
+        font-size: 25px;
+    }
+  
+    .mainTabela img{
+      width: 445px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+      .curiosidadeH2 {
+          font-size: 50px;
+      }
+      #curiosidadesIMG {
+        padding-left: 20.5rem;
+        width: 900px; 
+        height: 400px;
+        border-radius: 100px;
+      }
+      .curiosidadesP {
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1.5rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        font-size: 30px;
+      }
+      .maisGeneros {
+        margin-left: 7.5rem;
+        width: 80%;
+      }
+      .maisGeneros th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+      }  
+      .maisGeneros input {
+        font-size: 30px;
+        font-family: 'Piazzolla', serif;
+    }
+      .maisGeneros td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+      }
+      .imagemAvatar {
+    width: 65rem;
+    margin-left: 5rem;
+    }
+    .minhaContaH1 {
+    font-size: 50px;
+    margin-left: 2rem;
+    }
+    .minhaContaH2 {
+    font-size: 40px;
+    text-align: center;
+    }
+    .minhaContaP {
+    font-size: 30px;
+    text-align: center;
+    }
+}
+
+@media screen and (min-width: 1300px) { 
+
+    .mainTabela img{
+        width: 305px;
+      }
+      h1 {
+          font-size: 40px;
+      }
+      .mainH2 {
+        font-size: 45px;
+    }
+    .mainP { 
+        font-size: 25px;
+    }
+  
+    .mainTabela img{
+      width: 445px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    #curiosidadesIMG {
+      padding-left: 13.5rem;
+      width: 1100px; 
+      height: 400px;
+      border-radius: 100px;
+    }
+    .imagemAvatar {
+        width: 70rem;
+        margin-left: 5rem;
+    }
+    .minhaContaH1 {
+      font-size: 50px;
+      margin-left: 2rem;
+    }
+    .minhaContaH2 {
+      font-size: 40px;
+      text-align: center;
+    }
+    .minhaContaP {
+      font-size: 30px;
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 1400px) { 
+
+        .fone {
+            width: 60rem;
+            margin-left: 10rem;
+          }
+    
+          .bemVindo {
+            font-size: 40px;
+        }
+        .popularH2 {
+            font-size: 45px;
+        }
+        .maisPopulares {
+            width: 90%;
+      }
+      .maisPopulares th {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 30px;
+      }
+      .maisPopulares input {
+          font-size: 30px;
+          font-family: 'Piazzolla', serif;
+      }
+      .maisPopulares td {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-size: 30px;
+      }
+
+      .mainTabela img{
+        width: 455px;
+      }
+      h1 {
+          font-size: 40px;
+      }
+      .mainH2 {
+        font-size: 45px;
+    }
+    .mainP { 
+        font-size: 25px;
+    }
+  
+    .mainTabela img{
+      width: 445px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    
+    #curiosidadesIMG {
+      padding-left: 20.5rem;
+      width: 1100px; 
+      height: 400px;
+      border-radius: 100px;
+    }
+    .imagemAvatar {
+        width: 78rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 50px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 40px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 30px;
+        text-align: center;
+        }
+
+}
+@media screen and (min-width: 1500px) { 
+    .mainH2 {
+        font-size: 50px;
+    }
+    .mainP { 
+        font-size: 30px;
+    }
+  
+    .mainTabela img{
+      width: 607px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 30px;
+    }
+    #curiosidadesIMG {
+      padding-left: 25.5rem;
+      width: 1150px; 
+      height: 300px;
+      border-radius: 100px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .fone {
+        width: 80rem;
+        margin-left: 7rem;
+      }
+
+      .bemVindo {
+        font-size: 50px;
+    }
+    .popularH2 {
+        font-size: 45px;
+    }
+    .maisPopulares {
+        width: 90%;
+  }
+  .maisPopulares th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 30px;
+  }
+  .maisPopulares input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+  .maisPopulares td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 30px;
+  }
+
+  .mainTabela img{
+    width: 543px;
+  }
+  .mainH2 {
+    font-size: 50px;
+}
+.mainP { 
+    font-size: 30px;
+}
+
+.mainTabela img{
+  width: 607px;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+}
+    
+    h1 {
+        font-size: 80px;
+        margin-left: 20px;
+    }
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 23.5rem;
+        width: 1300px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 40px;
+    }
+    .maisGeneros {
+      margin-left: 11rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 35px;
+    }  
+    .maisGeneros input {
+      font-size: 35px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+
+    .fone {
+        width: 90rem;
+        margin-left: 9rem;
+      }
+
+      .bemVindo {
+        font-size: 55px;
+    }
+    .popularH2 {
+        font-size: 55px;
+    }
+    .maisPopulares {
+        width: 90%;
+  }
+  .maisPopulares th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 30px;
+  }
+  .maisPopulares input {
+      font-size: 30px;
+      font-family: 'Piazzolla', serif;
+  }
+  .maisPopulares td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 30px;
+  }
+  .mainH2 {
+      font-size: 50px;
+  }
+  .mainP { 
+      font-size: 30px;
+  }
+
+  .mainTabela img{
+    width: 607px;
+  }
+  h3 {
+      font-size: 40px;
+  }
+  p {
+      font-size: 30px;
+  }
+    .curiosidadeH2 {
+        font-size: 40px;
+    }
+    #curiosidadesIMG {
+        padding-left: 23.5rem;
+        width: 1450px; 
+        height: 400px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 40px;
+    }
+    .maisGeneros {
+      margin-left: 11rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 35px;
+    }  
+    .maisGeneros input {
+      font-size: 35px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    .curiosidadeH2 {
+        font-size: 70px;
+    }
+    #curiosidadesIMG {
+        padding-left: 40.5rem;
+        width: 1800px; 
+        height: 600px;
+        border-radius: 100px;
+    }
+    .curiosidadesP {
+      padding-left: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-right: 1.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+      font-size: 50px;
+    }
+    .maisGeneros {
+      margin-left: 11rem;
+      width: 80%;
+    }
+    .maisGeneros th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 55px;
+    }  
+    .maisGeneros input {
+      font-size: 55px;
+      font-family: 'Piazzolla', serif;
+  }
+    .maisGeneros td {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 45px;
+    }
+    .imagemAvatar {
+        width: 150rem;
+        margin-left: 5rem;
+        }
+        .minhaContaH1 {
+        font-size: 70px;
+        margin-left: 2rem;
+        }
+        .minhaContaH2 {
+        font-size: 60px;
+        text-align: center;
+        }
+        .minhaContaP {
+        font-size: 50px;
+        text-align: center;
+        }
+}

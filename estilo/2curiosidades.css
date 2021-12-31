@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: rgb(71, 71, 69);
     color: white;
     opacity: 0;
   }
@@ -68,7 +68,7 @@
   .hamburguer span::before{
     content: "";
     position: absolute;
-    border-right: .5rem solid orange;
+    border-right: .5rem solid rgb(71, 71, 69);
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -80,7 +80,7 @@
   }
   .show-menu .sidebar{
     right: 0;
-    border-left: solid 1px orange;
+    border-left: solid 1px rgb(71, 71, 69);
   }
   
   .menu1{
@@ -108,7 +108,7 @@
   }
   
   .social-media{
-    background-color: orange;
+    background-color: rgb(56, 55, 54);
     position: absolute;
     bottom: 2rem;
     width: 100%;
@@ -144,7 +144,7 @@
   
   .show-menu .sidebar{
     right: 0;
-    border-left: solid 1px orange;
+    border-left: solid 1px rgb(10, 10, 10);
   }
   aside {
     display: block;
